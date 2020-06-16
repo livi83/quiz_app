@@ -56,7 +56,7 @@ return [
 	],
 
 	'topics' => [
-		'title' => 'Celok',
+		'title' => 'Témy',
 		'fields' => [
 			'title' => 'Názov',
 		],
@@ -85,7 +85,7 @@ return [
 	'results' => [
 		'title' => 'Moje výsledky',
 		'fields' => [
-			'user' => 'používateš',
+			'user' => 'používateľ',
 			'question' => 'Otázka',
 			'correct' => 'Správne',
 			'date' => 'Dátum',
