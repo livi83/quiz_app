@@ -35,7 +35,7 @@ return [
 	],
 
 	'users' => [
-		'title' => 'Názov',
+		'title' => 'Používatelia',
 		'fields' => [
 			'name' => 'Meno',
 			'email' => 'Email',
