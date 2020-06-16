@@ -5,26 +5,26 @@ return [
 	'save' => 'Uložiť',
 	'edit' => 'Editovať',
 	'view' => 'Pozrieť',
-	'update' => 'Updatnúť',
-	'list' => 'List',
-	'no_entries_in_table' => 'žiadne záznamy v tabuľke',
+	'update' => 'Editovať',
+	'list' => 'Zoznam',
+	'no_entries_in_table' => 'Žiadne záznamy v tabuľke',
 	'custom_controller_index' => 'Custom controller index.',
 	'logout' => 'Odhlásiť',
 	'add_new' => 'Pridať',
 	'are_you_sure' => 'Ste si istý?',
 	'back_to_list' => 'Späť na list',
 	'dashboard' => 'Nástenka',
-	'delete' => 'vymazať',
+	'delete' => 'Vymazať',
 	'quickadmin_title' => 'FML kvíz',
 
 	'user-management' => [
-		'title' => 'User Management',
+		'title' => 'Používatelia',
 		'fields' => [
 		],
 	],
 
     'test' => [
-        'new' => 'Nový Quiz',
+        'new' => 'Nový kvíz',
     ],
 
 	'roles' => [
@@ -67,7 +67,7 @@ return [
 		'fields' => [
 			'topic' => 'Téma',
 			'question-text' => 'Text otázky',
-			'code-snippet' => 'Snippet',
+			'code-snippet' => 'Vystrihnutý kod',
 			'answer-explanation' => 'Vysvetlenie',
 			'more-info-link' => 'Viac info link',
 		],
@@ -76,14 +76,14 @@ return [
 	'questions-options' => [
 		'title' => 'Možnosti ',
 		'fields' => [
-			'question' => 'otázka',
+			'question' => 'Otázka',
 			'option' => 'Možnosť',
 			'correct' => 'Správne',
 		],
 	],
 
 	'results' => [
-		'title' => 'Moje výsledky',
+		'title' => 'Výsledky',
 		'fields' => [
 			'user' => 'Používateľ',
 			'question' => 'Otázka',
