@@ -15,7 +15,7 @@ class UserActionsController extends Controller
     }
 
     /**
-     * Display a listing of UserAction.
+     * Ukáž userActions
      *
      * @return \Illuminate\Http\Response
      */
