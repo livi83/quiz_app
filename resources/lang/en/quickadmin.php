@@ -1,21 +1,21 @@
 <?php
 
 return [
-	'create' => 'Create',
-	'save' => 'Save',
-	'edit' => 'Edit',
-	'view' => 'View',
-	'update' => 'Update',
+	'create' => 'Vytvoriť',
+	'save' => 'Uložiť',
+	'edit' => 'Editovať',
+	'view' => 'Pozrieť',
+	'update' => 'Updatnúť',
 	'list' => 'List',
-	'no_entries_in_table' => 'No entries in table',
+	'no_entries_in_table' => 'žiadne záznamy v tabuľke',
 	'custom_controller_index' => 'Custom controller index.',
-	'logout' => 'Logout',
-	'add_new' => 'Add new',
-	'are_you_sure' => 'Are you sure?',
-	'back_to_list' => 'Back to list',
-	'dashboard' => 'Dashboard',
-	'delete' => 'Delete',
-	'quickadmin_title' => 'LaraQuiz',
+	'logout' => 'Odhlásiť',
+	'add_new' => 'Pridať nového',
+	'are_you_sure' => 'Ste si istý?',
+	'back_to_list' => 'Späť na list',
+	'dashboard' => 'Nástenka',
+	'delete' => 'vymazať',
+	'quickadmin_title' => 'FML kvíz',
 
 	'user-management' => [
 		'title' => 'User Management',
@@ -24,78 +24,78 @@ return [
 	],
 
     'test' => [
-        'new' => 'New Quiz',
+        'new' => 'Nový Quiz',
     ],
 
 	'roles' => [
-		'title' => 'Roles',
+		'title' => 'Roly',
 		'fields' => [
-			'title' => 'Title',
+			'title' => 'Názov',
 		],
 	],
 
 	'users' => [
-		'title' => 'Users',
+		'title' => 'Názov',
 		'fields' => [
-			'name' => 'Name',
+			'name' => 'Meno',
 			'email' => 'Email',
-			'password' => 'Password',
-			'role' => 'Role',
+			'password' => 'Heslo',
+			'role' => 'Rola',
 			'remember-token' => 'Remember token',
 		],
 	],
 
 	'user-actions' => [
-		'title' => 'User actions',
+		'title' => 'Akcie používateľa',
 		'fields' => [
-			'user' => 'User',
-			'action' => 'Action',
-			'action-model' => 'Action model',
-			'action-id' => 'Action id',
+			'user' => 'Používateľ',
+			'action' => 'Akcia',
+			'action-model' => 'Akcia model',
+			'action-id' => ' id akcie',
 		],
 	],
 
 	'topics' => [
-		'title' => 'Topics',
+		'title' => 'Celok',
 		'fields' => [
-			'title' => 'Title',
+			'title' => 'Názov',
 		],
 	],
 
 	'questions' => [
-		'title' => 'Questions',
+		'title' => 'Otázky',
 		'fields' => [
-			'topic' => 'Topic',
-			'question-text' => 'Question text',
-			'code-snippet' => 'Code snippet',
-			'answer-explanation' => 'Answer explanation',
-			'more-info-link' => 'More info link',
+			'topic' => 'celok',
+			'question-text' => 'Text otázky',
+			'code-snippet' => 'Snippet',
+			'answer-explanation' => 'Vysvetlenie',
+			'more-info-link' => 'Viac info link',
 		],
 	],
 
 	'questions-options' => [
-		'title' => 'Questions Options',
+		'title' => 'Možnosti ',
 		'fields' => [
-			'question' => 'question',
-			'option' => 'Option',
-			'correct' => 'Correct',
+			'question' => 'otázka',
+			'option' => 'Možnosť',
+			'correct' => 'Správne',
 		],
 	],
 
 	'results' => [
-		'title' => 'My Results',
+		'title' => 'Moje výsledky',
 		'fields' => [
-			'user' => 'User',
-			'question' => 'Question',
-			'correct' => 'Correct',
-			'date' => 'Date',
-			'result' => 'Score',
+			'user' => 'používateš',
+			'question' => 'Otázka',
+			'correct' => 'Správne',
+			'date' => 'Dátum',
+			'result' => 'Skóre',
 		],
 	],
 
-	'laravel-quiz' => 'New Laravel Quiz',
-	'quiz' => 'Answer these 10 questions. There\'s no time limit.',
-	'submit_quiz' => 'Submit answers',
-	'view-result' => 'View result',
+	'laravel-quiz' => 'Nový kvíz',
+	'quiz' => 'Odpovedzte na týchto 10 otázok.',
+	'submit_quiz' => 'Odoslať',
+	'view-result' => 'Pozrieť výsledky',
 
 ];
