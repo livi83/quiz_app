@@ -10,7 +10,7 @@ return [
 	'no_entries_in_table' => 'žiadne záznamy v tabuľke',
 	'custom_controller_index' => 'Custom controller index.',
 	'logout' => 'Odhlásiť',
-	'add_new' => 'Pridať nového',
+	'add_new' => 'Pridať',
 	'are_you_sure' => 'Ste si istý?',
 	'back_to_list' => 'Späť na list',
 	'dashboard' => 'Nástenka',
