@@ -5,13 +5,9 @@
     @include('partials.head')
 </head>
 
-<body class="page-header-fixed">
+   
 
-
-
-    <div style="margin-top: 10%;"></div>
-
-    <div class="container-fluid">
+    <div class="container">
         @yield('content')
     </div>
 
@@ -23,4 +19,5 @@
     @include('partials.javascripts')
 
 </body>
+
 </html>
