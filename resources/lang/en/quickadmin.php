@@ -65,7 +65,7 @@ return [
 	'questions' => [
 		'title' => 'Otázky',
 		'fields' => [
-			'topic' => 'celok',
+			'topic' => 'Téma',
 			'question-text' => 'Text otázky',
 			'code-snippet' => 'Snippet',
 			'answer-explanation' => 'Vysvetlenie',
@@ -85,7 +85,7 @@ return [
 	'results' => [
 		'title' => 'Moje výsledky',
 		'fields' => [
-			'user' => 'používateľ',
+			'user' => 'Používateľ',
 			'question' => 'Otázka',
 			'correct' => 'Správne',
 			'date' => 'Dátum',
