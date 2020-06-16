@@ -3,11 +3,11 @@
 
 <nav>
     <ul class="home-nav-ul">
-        <li><a class="active" href="{{ url('login') }}">Domov</a></li>
-        <li><a href="#news">O súťaži</a></li>
-        <li><a href="#contact">Aktuálny ročník</a></li>
-        <li><a href="#about">Študijné materiiály</a></li>
-        <li style="float:right"><a class="active" href="#homepage-sys-login">Prihlásiť sa do systému</a></li>
+        <li class="home-nav-li"><a class="active" href="{{ url('login') }}">Domov</a></li>
+        <li class="home-nav-li"><a href="#news">O súťaži</a></li>
+        <li class="home-nav-li"><a href="#contact">Aktuálny ročník</a></li>
+        <li class="home-nav-li"><a href="#about">Študijné materiiály</a></li>
+        <li class= "home-nav-li"style="float:right"><a class="active" href="#homepage-sys-login">Prihlásiť sa do systému</a></li>
       </ul>
 </nav>     
 <div class="hero-image">
@@ -23,8 +23,8 @@
     <div class="row homepage-row-second-phunnel">
         
         <div class="col-md-8 col-md-offset-2">
-            <h2 style="font-weight:800;text-align:center;padding-bottom:1%;">Lorem ipsum dolor sit amet</h2>
-            <p style="font-size:18px; text-align:center; line-height:22px;padding-bottom:1%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue non sapien id interdum. Curabitur et metus non erat dignissim molestie non aliquet mauris. Aenean aliquam consequat mi, ut pulvinar eros luctus nec. Curabitur bibendum augue in felis ultricies viverra. Maecenas lacus massa, feugiat vel purus id, vulputate condimentum turpis. Aliquam erat volutpat. Sed sollicitudin lacus quis urna euismod lobortis.</p>
+            <h2 style="font-weight:800;text-align:center;padding-bottom:1%; color:#fff;">Lorem ipsum dolor sit amet</h2>
+            <p style="font-size:18px; text-align:center; line-height:22px;padding-bottom:1%;color:#fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue non sapien id interdum. Curabitur et metus non erat dignissim molestie non aliquet mauris. Aenean aliquam consequat mi, ut pulvinar eros luctus nec. Curabitur bibendum augue in felis ultricies viverra. Maecenas lacus massa, feugiat vel purus id, vulputate condimentum turpis. Aliquam erat volutpat. Sed sollicitudin lacus quis urna euismod lobortis.</p>
             <div class="panel panel-default">
                 
                 <div class="panel-heading" id="homepage-sys-login">Prihláste sa</div>
